@@ -1,0 +1,9 @@
+body{
+    font-family: "Questrial", sans-serif;
+    font-size: 16px;
+}
+
+* {
+/* tamanho do elemento vai ser o tamanho definido*/
+    box-sizing: border-box;
+}

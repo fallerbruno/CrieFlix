@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Uma página para quem gosta Filmes e Series.">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Bruno Faller">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base/reset.css">
+    <link rel="stylesheet" href="styles/base/base.css">
+    <link rel="stylesheet" href="styles/layaout/header.css">
+    <link rel="stylesheet" href="styles/components/button.css">
+    <link rel="stylesheet" href="styles/components/banner.css">
+
+
+    <title>CrieFlix</title>
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <img class="header__logo" src="images/logo.png" alt="logo CineFlix">
+
+        <nav class="header__menu">
+
+            <a href="#" class="header__menu__item header__menu__item--active">
+                <svg width="23" height="22" viewBox="0 0 23 22" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M18.375 18.3011V8.1706L11.0417 3.69633L3.70833 8.1706V18.3011H7.375V15.7377C7.375 14.7488 7.76131 13.8005 8.44894 13.1012C9.13658 12.402 10.0692 12.0091 11.0417 12.0091C12.0141 12.0091 12.9468 12.402 13.6344 13.1012C14.322 13.8005 14.7083 14.7488 14.7083 15.7377V18.3011H18.375ZM12.875 20.1654V15.7377C12.875 15.2433 12.6818 14.7691 12.338 14.4195C11.9942 14.0698 11.5279 13.8734 11.0417 13.8734C10.5554 13.8734 10.0891 14.0698 9.7453 14.4195C9.40149 14.7691 9.20833 15.2433 9.20833 15.7377V20.1654H3.70833C3.2221 20.1654 2.75579 19.969 2.41197 19.6193C2.06815 19.2697 1.875 18.7955 1.875 18.3011V8.1706C1.875 7.84866 1.95698 7.53221 2.11296 7.25206C2.26894 6.97191 2.49361 6.73761 2.76508 6.57198L10.0984 2.09771C10.3833 1.92386 10.7094 1.83203 11.0417 1.83203C11.374 1.83203 11.7 1.92386 11.9849 2.09771L19.3183 6.57198C19.5897 6.73761 19.8144 6.97191 19.9704 7.25206C20.1264 7.53221 20.2083 7.84866 20.2083 8.1706V18.3011C20.2083 18.7955 20.0152 19.2697 19.6714 19.6193C19.3275 19.969 18.8612 20.1654 18.375 20.1654H12.875Z" />
+                </svg>
+
+                <span> Inicio </span>
+            </a>
+
+            <a href="#" class="header__menu__item">
+                <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.48203 3.4987C3.93895 3.4987 3.4987 3.93895 3.4987 4.48203V17.5154C3.4987 18.0584 3.93895 18.4987 4.48203 18.4987H17.5154C18.0584 18.4987 18.4987 18.0584 18.4987 17.5154V4.48203C18.4987 3.93895 18.0584 3.4987 17.5154 3.4987H4.48203ZM1.83203 4.48203C1.83203 3.01848 3.01848 1.83203 4.48203 1.83203H17.5154C18.9789 1.83203 20.1654 3.01848 20.1654 4.48203V17.5154C20.1654 18.9789 18.9789 20.1654 17.5154 20.1654H4.48203C3.01848 20.1654 1.83203 18.9789 1.83203 17.5154V4.48203Z" />
+                    <path d="M6.83333 1.83203C7.29357 1.83203 7.66667 2.20513 7.66667 2.66536V19.332C7.66667 19.7923 7.29357 20.1654 6.83333 20.1654C6.3731 20.1654 6 19.7923 6 19.332V2.66536C6 2.20513 6.3731 1.83203 6.83333 1.83203Z" />
+                    <path d="M15.1654 1.83203C15.6256 1.83203 15.9987 2.20513 15.9987 2.66536V19.332C15.9987 19.7923 15.6256 20.1654 15.1654 20.1654C14.7051 20.1654 14.332 19.7923 14.332 19.332V2.66536C14.332 2.20513 14.7051 1.83203 15.1654 1.83203Z" />
+                    <path d="M1.83203 10.9974C1.83203 10.5372 2.20513 10.1641 2.66536 10.1641H19.332C19.7923 10.1641 20.1654 10.5372 20.1654 10.9974C20.1654 11.4576 19.7923 11.8307 19.332 11.8307H2.66536C2.20513 11.8307 1.83203 11.4576 1.83203 10.9974Z" />
+                    <path d="M1.83203 6.83333C1.83203 6.3731 2.20513 6 2.66536 6H6.83203C7.29227 6 7.66536 6.3731 7.66536 6.83333C7.66536 7.29357 7.29227 7.66667 6.83203 7.66667H2.66536C2.20513 7.66667 1.83203 7.29357 1.83203 6.83333Z" />
+                    <path d="M1.83203 15.1654C1.83203 14.7051 2.20513 14.332 2.66536 14.332H6.83203C7.29227 14.332 7.66536 14.7051 7.66536 15.1654C7.66536 15.6256 7.29227 15.9987 6.83203 15.9987H2.66536C2.20513 15.9987 1.83203 15.6256 1.83203 15.1654Z" />
+                    <path d="M14.332 15.1654C14.332 14.7051 14.7051 14.332 15.1654 14.332H19.332C19.7923 14.332 20.1654 14.7051 20.1654 15.1654C20.1654 15.6256 19.7923 15.9987 19.332 15.9987H15.1654C14.7051 15.9987 14.332 15.6256 14.332 15.1654Z" />
+                    <path d="M14.332 6.83333C14.332 6.3731 14.7051 6 15.1654 6H19.332C19.7923 6 20.1654 6.3731 20.1654 6.83333C20.1654 7.29357 19.7923 7.66667 19.332 7.66667H15.1654C14.7051 7.66667 14.332 7.29357 14.332 6.83333Z" />
+                  </svg>
+                  
+                <span> Filmes </span>
+            </a>
+
+            <a href="#" class="header__menu__item">
+                <img src="images/icons/clapperboard.svg" alt="clapperboard icon">
+                <span> Series </span>
+            </a>
+
+            <a href="#" class="header__menu__item">
+                <img src="images/icons/live.svg" alt="icone film">
+                <span> Ao Vivo </span>
+            </a>
+
+        </nav>
+
+        <a href="#" class="button header__sign-in">Entrar</a>
+
+    </header>
+
+    <section class="banner">
+
+        <h1 class="banner__title">
+            Filmes, Séries e muito mais.<br />
+            Sem limites.
+        </h1>
+
+        <h5 class="banner__subtitle">
+            Assista onde quiser. Cancele quando quiser.
+        </h5>
+
+    </section>
+
+
+
+
+</body>
+
+</html>
