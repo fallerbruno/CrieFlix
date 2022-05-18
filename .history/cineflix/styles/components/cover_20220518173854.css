@@ -17,6 +17,7 @@
     height: 240px;
 }
 
+
 .cover__title {
     color:var(--color-white);
     font-size: 20px;
@@ -47,12 +48,6 @@
     .cover__title{
         font-size: 11px;
         line-height:12px;
-        padding: 4px;
-    }
-
-    .cover--large {
-        width: 270px;
-        height: 165px;
     }
 }
 

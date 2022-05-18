@@ -28,12 +28,8 @@
 }
 
 @media only screen and (max-width: 480px) {
-    .banner{
-        height: 510px;
-    }
     .banner__content{
         margin-left: 16px;
-        padding-top: 80px;
     }
 
     .banner__title {
@@ -42,7 +38,6 @@
     }
 
     .banner__subtitle{
-        font-size:14px;
-        line-height: 18px;
+        
     }
 }

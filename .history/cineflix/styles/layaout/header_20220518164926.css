@@ -10,11 +10,11 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;
+    z-index:1000;   
 }
 
-.header__logo {
-    width: 170px;
+.header__logo{
+    width:170px;
     margin-right: 64px;
 }
 
@@ -28,10 +28,6 @@
     margin-right: 24px;
 }
 
-.header__menu__item:last-child{
-    margin-right: 0;
-}
-
 .header__menu__item svg {
     fill: var(--color-lighten-gray);
 }
@@ -43,49 +39,32 @@
 .header__menu__item--active svg {
     fill: var(--color-white);
 }
-
 /*display inblock pode utilizar vertical align tendo 2 ou mais elementos */
 .header__menu__item__icon,
-.header__menu__item__text {
-    vertical-align: middle;
+.header__menu__item__text{
+    vertical-align: middle;    
 }
 
-.header__menu__item__icon {
+.header__menu__item__icon{
     margin-right: 8px;
 }
-
+ 
 
 .header__sign-in {
     margin-left: auto;
     margin-right: 0px;
 }
 
-@media only screen and (max-width: 480px) {
-    .header {
+@media only screen and (max-width: 480px){
+    .header{
         margin: 16px;
-        flex-wrap: wrap;
     }
 
-    .header__logo {
+    .header__logo{
         width: 100px;
     }
 
-    .header__menu {
-        order: 3;
-        margin: 40px -16px 0 -16px;
-        padding: 0 16px;
-        display: flex;
-        overflow: auto hidden;
-        scrollbar-width: none;
-       
-    }
-
-    .header__menu::-webkit-scrollbar {
-        width: 0;
-        height: 0;
-    }
-
-    .header__menu__item {
-        flex-shrink: 0;
+    .header__menu{
+        order: 0;
     }
 }

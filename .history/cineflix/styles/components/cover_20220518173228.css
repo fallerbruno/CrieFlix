@@ -6,16 +6,12 @@
     /*usa so 0 para nao e 1 para sim muda o comportamento do flex*/
     flex-shrink: 0;
     margin-right: 16px;
-    
-}
-
-.cover:last-child{
-    margin-right: 0;
 }
 .cover--large {
     width: 400px;
     height: 240px;
 }
+
 
 .cover__title {
     color:var(--color-white);
@@ -34,25 +30,16 @@
     object-fit: cover;
     position:relative;
     z-index: -1;
-    border-radius: 3px;
-    
 }
 
 @media only screen and (max-width: 480px) {
     .cover{
         width: 100px;
-        height: 135px;
-        margin-right: 12px;
+        height: 136px;
     }
     .cover__title{
-        font-size: 11px;
-        line-height:12px;
-        padding: 4px;
-    }
-
-    .cover--large {
-        width: 270px;
-        height: 165px;
+        font-size: 12px;
+        line-height:11px;
     }
 }
 
