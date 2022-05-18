@@ -1,0 +1,15 @@
+.input-group{
+    display: flex;
+}
+
+/*seletor composto*/
+.input-group .input {
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+}
+
+.input-group .button {
+    border-bottom-left-radius: 0;
+    border-top-left-radius:0 ;
+}
+

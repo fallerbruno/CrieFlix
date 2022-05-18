@@ -1,0 +1,16 @@
+.input {
+    height: 60px;
+    width: 360px;
+    padding: 16px 24px;
+    background:var(--color-white);
+    border-radius:var(border-radius-default);
+    border: none;
+    color:var(--color-black);
+    font-size: var(--font-size-default);
+    font-family: var(--font-family-default);
+}
+/*estilizacao de pseudo elementos
+pseudo elementos sao coisas elementos que nao escrevemos*/
+.input::placeholder{
+    color:var(--color-lighten-gray);
+}

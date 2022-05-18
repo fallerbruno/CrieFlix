@@ -2,9 +2,9 @@
     height: 40px;
     padding: 10px 24px;
     background-color: var(--color-primary);
-    font-size: var(--font-size-default);
+    font-size: var(--font-size-primary);
     line-height: 22px;
-    border-radius: var(--border-radius-default);
+    border-radius: 3px;
     color: var(--color-white);
     text-decoration: none;
     border: none;
