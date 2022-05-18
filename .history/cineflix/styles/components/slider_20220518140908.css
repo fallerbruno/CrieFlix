@@ -40,8 +40,6 @@
     /*definicao para ter alinhado inicialmente e depois rolar para dentro*/
     margin: 0 -70px;
     padding: 0 70px;
-    /*definicao para mozila sem slider*/
-    scrollbar-width: none;
 }
 
 .slider__track::-webkit-scrollbar {
@@ -49,3 +47,7 @@
     height: 0;
 }
 
+.slider__track::-moz-scrollbar{
+    width: 0;
+    height: 0;
+}

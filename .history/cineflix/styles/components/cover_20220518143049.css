@@ -7,11 +7,11 @@
     flex-shrink: 0;
     margin-right: 16px;
 }
+
 .cover--large {
     width: 400px;
     height: 240px;
 }
-
 
 .cover__title {
     color:var(--color-white);

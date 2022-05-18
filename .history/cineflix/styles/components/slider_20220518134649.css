@@ -37,15 +37,5 @@
     display: flex;
     /*barra de rolagem dentro do slider* primeiro eixo x e segundo eixo y*/
     overflow: auto hidden;
-    /*definicao para ter alinhado inicialmente e depois rolar para dentro*/
     margin: 0 -70px;
-    padding: 0 70px;
-    /*definicao para mozila sem slider*/
-    scrollbar-width: none;
 }
-
-.slider__track::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-}
-
